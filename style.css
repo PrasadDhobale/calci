@@ -1,0 +1,76 @@
+body {
+    background: #dde1e7;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .container {
+    background: #dde1e7;   
+    border-radius: .5em;
+    box-shadow: -3px -3px 7px #ffffff73,
+                2px 2px 5px rgba(94, 104, 121, 0.288);
+    
+    padding: 32px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+  }
+  .container .result {   
+    box-shadow: inset 2px 2px 5px #4fe5e7,
+                inset -5px -5px 10px #ab515173;
+    
+  }
+  .container .result p {
+    font-size: 30pt;
+    overflow-y: auto;
+    text-align: right;
+  
+  }
+  h6
+  {
+    font-size:10=5px;
+  }
+  .container .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+    background: rgb(77, 208, 184);
+  }
+  .container .buttons .button, .container .buttons .num-button  {
+    cursor: grab;
+    text-align: center;
+    width: 60px;
+    font-size:18px;
+    height: 50px;
+    display: grid;
+    place-content: center;
+    border-radius: 20%;
+    box-shadow: 2px 2px 5px #e22d70, -5px -5px 10px #ffffff73;
+  }
+  .button:hover{
+    color: #055285;
+    background-color: #b1d6ee;
+   
+  }
+  
+  .container .buttons .total {
+    grid-column: 3/ 5;
+    width: 65%;
+    font-size:18px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #babecc, -5px -5px 10px #ffffff73;
+  }
+
+  .action-btn {
+    color: grey;
+    font-weight: bold;
+  }
+  .calc-action-btn{
+    color: blue;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  p, p:hover
+  {
+    outline:none;
+  }
+ 
